@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    padding-top: 0.5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#cabecalho {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form span{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form span{
+    margin-bottom: 3vh;
+}
+
+span label{
+    margin-bottom: 1vh;
+}
+
+.preferecontato {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+
+.preferecontato span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.preferecontato fieldset {
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.preferecontato fieldset span {
+    margin-bottom: 0;
+}
+
+.recebernovidadesspan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type="submit"] {
+    background-color: #ff00c8;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: large;
+    height: 7vh;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 17vw;
+}
+
+th {
+    background-color: #ff00c8;
+    color: #FFFFFF;
+    height: 5vh;
+    border: #000000;
+    border-style: double;
+}
+
+td {
+    border: #000000;
+    border-style: double;
+    border-spacing: 0.5;   
+}
+
+footer {
+    background-color: #ff00c8;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: large;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

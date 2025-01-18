@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <h1 id="cabecalho">Formulário de Contato</h1>
+
+            <span>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" name="nomesobrenome">
+            </span>
+
+            <span>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@dominio.com">
+            </span>
+
+            <span>
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+            </span>
+
+            <span>
+                <label for="mensagem">Mensagem</label>
+                <input type="text" id="mensagem" name="mensagem">
+            </span>
+
+            <div class="preferecontato">
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+
+                    <span>
+                        <input type="radio" id="prefereemail" name="preferecontato" value="Email">
+                        <label for="prefereemail">Email</label>
+                    </span>
+
+                    <span>
+                        <input type="radio" id="preferetelefone" name="preferecontato" value="Telefone">
+                        <label for="preferetelefone">Telefone</label>
+                    </span>
+
+                    <span>
+                        <input type="radio" id="preferewhatsapp" name="preferecontato" value="Whatsapp">
+                        <label for="preferewhatsapp">Whatsapp</label>
+                    </span>
+                </fieldset>
+            </div>
+
+            <span>
+                <fieldset>
+                    <legend><label for="horarioatendido">Qual horário prefere ser atendido?</label></legend>
+                    
+                    <select id="horarioatendido" name="horarioatendido">
+                        <option value="07">07:00 - 08:00</option>
+                        <option value="08">08:00 - 09:00</option>
+                        <option value="09">09:00 - 10:00</option>
+                        <option value="10">10:00 - 11:00</option>
+                        <option value="11">11:00 - 12:00</option>
+                    </select>
+                </fieldset>
+            </span>
+
+            <span class="recebernovidadesspan">
+                <input type="checkbox" id="recebernovidades" name="recebernovidades">
+                <label for="mensagem">Gostaria de receber nossas novidades por email?</label>
+            </span>
+
+            <input type="submit" id="enviaformulario" value="Enviar formulário">
+        </form>
+
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Horários</th>
+            </tr>
+
+            <tr>
+                <td>Segunda</td>
+                <td>07:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Terça</td>
+                <td>07:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>07:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Quinta</td>
+                <td>07:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>07:00 - 12:00</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Gustavo Miguel</p>
+    </footer>
+</body>
+
+</html>
