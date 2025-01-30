@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Previewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="preview-box" class="box"></div>
+        <div class="controls">
+            <label>Top Left: <input type="number" id="top-left" oninput="updateTopLeftBorderRadius()"></label>
+            <label>Top Right: <input type="number" id="top-right" oninput="updateTopRightBorderRadius()"></label>
+            <label>Bottom Left: <input type="number" id="bottom-left" oninput="updateBottomLeftBorderRadius()"></label>
+            <label>Bottom Right: <input type="number" id="bottom-right" oninput="updateBottomRightBorderRadius()"></label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
